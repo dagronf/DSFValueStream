@@ -109,7 +109,7 @@ public extension DSFValueSourceType {
 	/// A CGFloat random value source
 	class CGFloatSource: DSFValueSource<CGFloat> {
 		let range: ClosedRange<CGFloat>
-		init(_ range: ClosedRange<CGFloat> = 0.0 ... 1.0) {
+		public init(_ range: ClosedRange<CGFloat> = 0.0 ... 1.0) {
 			self.range = range
 		}
 
