@@ -62,7 +62,7 @@ wordStream.trigger()
 
 This library has two main concepts
 
-###A source generates a value
+### A source generates a value
 
 A source generates a single value in response to a call.  This value is entirely dependent on the source - it might be purely random, or maybe iterative over an array of stored values.
 
@@ -81,7 +81,7 @@ There are a number of built-in source types
 
 It is quite straight forward to write your own source if needed.
 
-###A generator or publisher uses a source to generate a stream of values
+### A generator or publisher uses a source to generate a stream of values
 
 The generator is provided a source which is then used to generate a stream of values. Currently there are two types of generator.
 
